@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puneet's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="navbar">
+          <div class="logocontainer">
+            <img src="pt.png.jpg" alt="logo" class="logo" height="100px" />
+            <div class="logotext">PUNEET TIWARI</div>
+          </div>
+          <div class="nav-items">
+            <div><a href="/">Projects</a></div>
+            <div><a href="/">Skills</a></div>
+            <div><a href="/">Contact Me</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-section">
+        <div class="faded-text">PUNEET</div>
+      <div class="hero-section-left">
+        <div class="hero-section-heading">Hi! I am Puneet</div>
+        <div class="hero-section-subheading hero-section-heading">
+          I am a <span id="element"></span>
+        </div>
+        <div class="hero-section-description">
+          I'm a software developer and here is my portfolio website. Here you'll
+          learn about my journey as a software developer.
+        </div>
+        <div class="btn-pink" id="Button">Hire Me</div>
+      </div>
+      <div class="hero-section-right">
+        <div class="user-image">
+            <!-- <img src="pt1.jpg" alt="" height="350px" width="350px"> -->
+            <img src="pt1.jpg" alt="" height="350px" width="350px">
+        </div>
+    </div>
+      </div>
+      <div class="project-section">
+      <h2 class="page-header">Projects</h2>
+
+      <div class="project-container">
+          <div class="project-card" id="project1">
+
+              <div class="project-number project-number-right">01</div>
+              <div class="project-content project-content-left">
+
+                  <div class="project-skills-container">
+              <img class="project-skill" src="html.png" alt="">
+              <img class="project-skill" src="css.png" alt="">
+              <img class="project-skill" src="javascript.png" alt="">
+              <img class="project-skill" src="express.png" alt="">
+              <img class="project-skill" src="nextjs.png" alt="">
+              <img class="project-skill" src="tailwind.png" alt="">
+              <img class="project-skill" src="nodejs.png" alt="">
+              <img class="project-skill" src="mongodb.png" alt="">
+              <img class="project-skill" src="vercel.png" alt="">
+              <img class="project-skill" src="redux.png" alt="">
+            </div>
+            <h2 class="project-heading">Lorem</h2>
+
+            <p class="project-subHeading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam, cum aut odio, sequi consectetur unde quod optio esse dolore facere eius minus eos soluta, ea dolorem ullam officiis ad.
+            </p>
+            <div class="btn-grp">
+                <button class="btn-pink btn-project">Read More</button>
+                <a href="">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                <a href="">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+                </a>
+            </div>
+        </div>     
+        </div>
+
+        </div>
+       
+      </div>
+      <div class="contactus-form-container">
+        <div class="container">
+          <h1 class="contactus-heading">Contact Me</h1>
+          <h3 class="contactus-sub-heading">Questions, thoughts, or just want to say hello?
+          </h3>
+          <div class="contactus-form-container">
+            <form class="form" action="">
+              <div class="formfield-container">
+                <input class="formfield" type="text" name="name" id="g" placeholder="Enter Your Name"/>
+                <input class="formfield" type="email" name="email" id="E" placeholder="Enter Your Email Address"/>
+                <input class="formfield" type="text" name="subject" id="s" placeholder="Enter Your Subject"/>
+                <textarea name="message" id="t" cols="30" rows="10" class="formfield formfield-textarea" placeholder="Enter Your Message"></textarea>
+
+              </div>
+              <div>
+                <button type="submit" class="btn-pink" id="submit-btn">
+                  Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+      
+    
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Web Designer",
+          "Video Editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
