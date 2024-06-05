@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(10, 22, 33);
+    background-color: rgb(43, 93, 141);
     color: white;
     font-family: "Poppins", sans-serif;
   }
@@ -50,7 +50,7 @@ a{
     color: white;
 }
 a:hover{
-    color: red;
+    color: rgb(211, 45, 45);
     font-size: 1.25rem;
 }
 .nav-items div{
@@ -95,7 +95,7 @@ a:hover{
     color: #cfd7fe;
 }
 #element{
-    color: #4e45d5;
+    color: #685fe2;
     font-weight: 600;
 }
 .hero-section-subheading{
@@ -109,7 +109,7 @@ a:hover{
 }
 .btn-pink{
     background-color: #4e45d5;
-    color: white;
+    color: rgb(79, 60, 60);
     width: fit-content;
     padding: 0.8rem 2.3rem;
     box-shadow: 5px 5px 7px 0px #0000003f;
